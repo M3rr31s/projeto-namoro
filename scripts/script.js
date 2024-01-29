@@ -22,7 +22,6 @@ function lugarAleatorio () {
 
 
 
-
 sim.addEventListener("click", () => {
     const sim = document.querySelector("#sim");
     const img = document.querySelector("#imagem");
