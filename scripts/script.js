@@ -7,8 +7,8 @@ function lugarAleatorio () {
     const texto = document.querySelector("#texto")
     const img = document.querySelector("#imagem");
     
-    const randomY = Math.floor(Math.random() * 200)
-    const randomX = Math.floor(Math.random() * 400)
+    const randomY = Math.floor(Math.random() * 100)
+    const randomX = Math.floor(Math.random() * 200)
 
     nao.style.left = randomY + 'px'
     nao.style.top = randomX + 'px'
